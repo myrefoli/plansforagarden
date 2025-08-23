@@ -1,0 +1,86 @@
+html {
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+body {
+  background-image: url("images/originmyth/redstudio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-color: #f1e5d9;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+p {
+  font-family: "adobe-garamond-pro", serif;
+  font-size: 22px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  grid-gap: 1%;
+}
+
+#irises {
+  max-width: 400px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.textbox {
+  width: 500px;
+  height: 500px;
+  /*border: 1px solid white;*/
+  transform: rotate(-90deg);
+}
+
+.strip {
+  position: absolute;
+  top: 50%;
+  height: 600px;
+  width: 100vw;
+  background-color: black;
+  opacity: 50%;
+  transform: translate(0, -50%);
+  z-index: -90;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  font-size: 25px;
+}
+
+#footer-center {
+  position: absolute;
+  color: white;
+  right: 46%;
+  bottom: 0%;
+}
+
+#footer-right {
+  position: absolute;
+  color: white;
+  right: 10px;
+  bottom: 0px;
+}

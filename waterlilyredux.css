@@ -1,0 +1,151 @@
+@import url("https://use.typekit.net/ial1hxa.css");
+body {
+  background: #fcf2f8;
+  background-image: url("images/waterlilyredux/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  color: #6b5ba6;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 40px;
+  grid-template-rows: 40px auto;
+  grid-template-areas: 
+    "icon header header close"
+    "main main main main";
+  width: 500px;
+  height: 500px;
+  border: 1px solid #f0ece4;
+  background: #f0ece4;
+  /*border-radius: 10px;*/
+  filter: drop-shadow(1px 1px 5px black);
+  grid-gap: 0px;
+  z-index: 999;
+}
+
+#pencil {
+  width: 25px;
+  padding: 8px;
+  grid-area: icon;
+  color: white;
+  background-color: blue;
+  margin: 4px;
+}
+
+#title {
+  grid-area: header;
+  height: 31px;
+  color: white;
+  background-color: blue;
+  margin-top: 4px;
+  padding-top: 10px;
+}
+
+#xbutton {
+  width: 37px;
+  grid-area: close;
+  background-color: blue;
+  margin-top: 4px;
+  padding-bottom: 4px;
+}
+
+#main {
+  grid-area: main;
+  background-color: white;
+  margin: 4px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*border: 1px solid red;*/
+}
+
+.folders {
+  float: left;
+  z-index: 0;
+  overflow: visible;
+}
+
+.folder {
+  width: 128px;
+  height: 128px;
+  text-decoration: none;
+  color: #000 !important;
+  display: block;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.folder img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.folder span {
+  display: inline-block;
+  color: #fcf2f8;
+  filter: drop-shadow(1px 1px 5px black);
+}
+
+h1 {
+  font-family: altesse-std-24pt, sans-serif;
+  font-weight: normal;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #444444;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  font-size: 25px;
+  font-family: "adobe-garamond-pro", serif;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  
+}
+
+#footer-left {
+  position: absolute;
+  color: white;
+  left: 10px;
+  bottom: 0;
+}
+
+#footer-center {
+  position: absolute;
+  color: white;
+  right: 46%;
+  bottom: 0%;
+}

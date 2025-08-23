@@ -1,0 +1,208 @@
+html {
+  /*overflow-x: hidden; 
+  overflow-y: hidden;*/
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*background-image: url("images/water/paper2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: luminosity;*/
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #f1e5d9;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+p {
+  font-family: "adobe-garamond-pro", serif;
+  font-size: 25px;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+}
+
+.table {
+  display: grid;
+  height: 100vh;
+  column-gap: 0;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  /*justify-content: center;*/
+  align-items: center;
+  border: 1px solid black;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item p {
+  position: absolute;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  text-shadow: none;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  /*background-color: black;*/
+}
+
+.text-box p {
+  margin: 0px;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  text-shadow: none;
+}
+
+#one {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+#two {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+#three {
+  grid-area: 1 / 7 / 2 / 8;
+}
+
+#four {
+  grid-area: 1 / 8 / 2 / 9;
+}
+
+#five {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+#six {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+#seven {
+  grid-area: 2 / 6 / 3 / 7;
+}
+
+#eight {
+  grid-area: 2 / 7 / 3 / 8;
+}
+
+#nine {
+  grid-area: 2 / 8 / 3 / 9;
+}
+
+#ten {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+#eleven {
+  grid-area: 3 / 6 / 4 / 7;
+}
+
+#twelve {
+  grid-area: 3 / 7 / 4 / 8;
+}
+
+#thirteen {
+  grid-area: 3 / 8 / 4 / 9;
+}
+
+#fourteen {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+#fifteen {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+#sixteen {
+  grid-area: 4 / 7 / 5 / 8;
+}
+
+#seventeen {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+#eighteen {
+  grid-area: 5 / 4 / 6 / 5;
+}
+
+#nineteen {
+  grid-area: 5 / 5 / 6 / 6;
+}
+
+#twenty {
+  grid-area: 5 / 8 / 6 / 9;
+}
+
+#text-one {
+  grid-area: 1 / 4 / 2 / 6;
+}
+
+#text-two {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+#text-three {
+  grid-area: 3 / 4 / 5 / 6;
+}
+
+#text-four {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+#text-five {
+  grid-area: 5 / 6 / 6 / 8;
+}
+
+#text-six {
+  grid-area: 4 / 8 / 5 / 9;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  font-size: 25px;
+}
+
+#footer-left {
+  position: absolute;
+  color: white;
+  left: 10px;
+  bottom: 0;
+}
+
+#footer-center {
+  position: absolute;
+  color: white;
+  right: 46%;
+  bottom: 0;
+}
+
+#footer-right {
+  position: absolute;
+  color: white;
+  right: 10px;
+  bottom: 0;
+}

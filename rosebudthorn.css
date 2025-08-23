@@ -1,0 +1,336 @@
+html {
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+body {
+  background-image: url("images/rosebudthorn/2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-color: #f1e5d9;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+p {
+  font-family: "adobe-garamond-pro", serif;
+  font-size: 22px;
+  color: white;
+  /*text-shadow: 2px 2px 5px black;*/
+}
+
+#attribution {
+  position: absolute;
+  top: 12%;
+  right: 14%;
+}
+
+#rose-one {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  width: 500px;
+  text-align: center;
+}
+
+#rose-two {
+  position: absolute;
+  top: 75%;
+  left: 3%;
+  width: 250px;
+  text-align: left;
+}
+
+#rose-three {
+  position: absolute;
+  top: 85%;
+  left: 17%;
+  width: 250px;
+  text-align: left;
+}
+
+#rose-four {
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  width: 250px;
+  text-align: left;
+}
+
+#rose-five {
+  position: absolute;
+  bottom: 0%;
+  left: 3%;
+  width: 650px;
+  text-align: left;
+  line-height: 12px;
+}
+
+.bud-ray {
+  position: absolute;
+  text-align: left;
+}
+
+#first-ray {
+  top: 10%;
+  left: 50%;
+  transform: rotate(-90deg);
+}
+
+#second-ray {
+  top: 10.2%;
+  left: 51.5%;
+  transform: rotate(-80deg);
+}
+
+#third-ray {
+  top: 11%;
+  left: 53%;
+  transform: rotate(-70deg);
+}
+
+#fourth-ray {
+  top: 12.2%;
+  left: 54.3%;
+  transform: rotate(-60deg);
+}
+
+#fifth-ray {
+  top: 13.8%;
+  left: 55.6%;
+  transform: rotate(-50deg);
+}
+
+#sixth-ray {
+  top: 15.6%;
+  left: 56.6%;
+  transform: rotate(-40deg);
+}
+
+#seventh-ray {
+  top: 17.8%;
+  left: 57.5%;
+  transform: rotate(-30deg);
+}
+
+#eighth-ray {
+  top: 20.3%;
+  left: 58.1%;
+  transform: rotate(-20deg);
+}
+
+#ninth-ray {
+  top: 23%;
+  left: 58.5%;
+  transform: rotate(-10deg);
+}
+
+#tenth-ray {
+  top: 25.7%;
+  left: 58.65%;
+}
+
+#ray11 {
+  top: 28.4%;
+  left: 58.5%;
+  transform: rotate(10deg);
+}
+
+#ray12 {
+  top: 31.1%;
+  left: 58.1%;
+  transform: rotate(20deg);
+}
+
+#ray13 {
+  top: 33.6%;
+  left: 57.5%;
+  transform: rotate(30deg);
+}
+
+#ray14 {
+  top: 35.8%;
+  left: 56.6%;
+  transform: rotate(40deg);
+}
+
+#ray15 {
+  top: 37.6%;
+  left: 55.6%;
+  transform: rotate(50deg);
+}
+
+#ray16 {
+  top: 39.2%;
+  left: 54.3%;
+  transform: rotate(60deg);
+}
+
+#ray17 {
+  top: 40.4%;
+  left: 53%;
+  transform: rotate(70deg);
+}
+
+#ray18 {
+  top: 41.2%;
+  left: 51.5%;
+  transform: rotate(80deg);
+}
+
+#ray19 {
+  top: 41.4%;
+  left: 50%;
+  transform: rotate(90deg);
+}
+
+#ray20 {
+  top: 41.2%;
+  left: 48.5%;
+  transform: rotate(100deg);
+}
+
+#ray21 {
+  top: 40.4%;
+  left: 47%;
+  transform: rotate(110deg);
+}
+
+#ray22 {
+  top: 39.2%;
+  left: 45.7%;
+  transform: rotate(120deg);
+}
+
+#ray23 {
+  top: 37.6%;
+  left: 44.4%;
+  transform: rotate(130deg);
+}
+
+#ray24 {
+  top: 35.8%;
+  left: 43.4%;
+  transform: rotate(140deg);
+}
+
+#ray25 {
+  top: 33.6%;
+  left: 42.5%;
+  transform: rotate(150deg);
+}
+
+#ray26 {
+  top: 31.1%;
+  left: 41.9%;
+  transform: rotate(160deg);
+}
+
+#ray27 {
+  top: 28.4%;
+  left: 41.5%;
+  transform: rotate(170deg);
+}
+
+#ray28 {
+  top: 25.7%;
+  left: 41.35%;
+  transform: rotate(180deg);
+}
+
+#ray29 {
+  top: 23%;
+  left: 41.5%;
+  transform: rotate(190deg);
+}
+
+#ray30 {
+  top: 20.3%;
+  left: 41.9%;
+  transform: rotate(200deg);
+}
+
+#ray31 {
+  top: 17.8%;
+  left: 42.5%;
+  transform: rotate(210deg);
+}
+
+#ray32 {
+  top: 15.6%;
+  left: 43.4%;
+  transform: rotate(220deg);
+}
+
+#ray33 {
+  top: 13.8%;
+  left: 44.4%;
+  transform: rotate(230deg);
+}
+
+#ray34 {
+  top: 12.2%;
+  left: 45.7%;
+  transform: rotate(240deg);
+}
+
+#ray35 {
+  top: 11%;
+  left: 47%;
+  transform: rotate(250deg);
+}
+
+#ray36 {
+  top: 10.2%;
+  left: 48.5%;
+  transform: rotate(260deg);
+}
+
+#thorn {
+  position: absolute;
+  top: 29%;
+  left: 70%;
+  width: 1000px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  font-size: 25px;
+  text-shadow: 2px 2px 5px black;
+}
+
+#footer-left {
+  position: absolute;
+  color: white;
+  left: 10px;
+  bottom: 0;
+}
+
+#footer-center {
+  position: absolute;
+  color: white;
+  right: 46%;
+  bottom: 0%;
+}
+
+#footer-right {
+  position: absolute;
+  color: white;
+  right: 10px;
+  bottom: 0px;
+}
